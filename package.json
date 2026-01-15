@@ -1,0 +1,44 @@
+{
+  "name": "gocart",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^6.36.7",
+    "@neondatabase/serverless": "^1.0.2",
+    "@prisma/adapter-neon": "^7.2.0",
+    "@prisma/client": "^6.8.2",
+    "@reduxjs/toolkit": "^2.8.2",
+    "date-fns": "^4.1.0",
+    "dotenv": "^17.2.3",
+    "inngest": "^3.49.1",
+    "lucide-react": "^0.525.0",
+    "next": "^15.5.9",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "react-hot-toast": "^2.5.2",
+    "react-redux": "^9.2.0",
+    "recharts": "^3.1.2",
+    "ws": "^8.19.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/ws": "^8.18.1",
+    "prisma": "^6.8.2",
+    "tailwindcss": "^4"
+  },
+  "description": "<div align=\"center\">   <h1><img src=\"https://gocartshop.in/favicon.ico\" width=\"20\" height=\"20\" alt=\"GoCart Favicon\">    GoCart</h1>   <p>     An open-source multi-vendor e-commerce platform built with Next.js and Tailwind CSS.   </p>   <p>     <a href=\"https://github.com/GreatStackDev/goCart/blob/main/LICENSE.md\"><img src=\"https://img.shields.io/github/license/GreatStackDev/goCart?style=for-the-badge\" alt=\"License\"></a>     <a href=\"https://github.com/GreatStackDev/goCart/pulls\"><img src=\"https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge\" alt=\"PRs Welcome\"></a>     <a href=\"https://github.com/GreatStackDev/goCart/issues\"><img src=\"https://img.shields.io/github/issues/GreatStackDev/goCart?style=for-the-badge\" alt=\"GitHub issues\"></a>   </p> </div>",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
