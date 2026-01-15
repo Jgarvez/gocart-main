@@ -16,7 +16,7 @@ export const syncUserCreation = inngest.createFunction(
   },
 )
 
-export const syncUserUpdation = image.createFunction(
+export const syncUserUpdation = inngest.createFunction(
     {id: 'sync-user-update'},
     { event:'clerk/user.updated'},
     async ({event}) => {
@@ -32,7 +32,7 @@ export const syncUserUpdation = image.createFunction(
     }
 )
 
-export const syncUserDeletion = image.createFunction(
+export const syncUserDeletion = inngest.createFunction(
     {id: 'sync-user-delete'},
     { event:'clerk/user.deleted'},
     async ({event}) => {
